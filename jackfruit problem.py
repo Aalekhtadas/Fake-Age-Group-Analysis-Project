@@ -66,22 +66,8 @@ def test_script():
 if __name__ == "__main__":
     test_script()'''
 
-import matplotlib.pyplot as plt
 
-# Data for the graph
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 1, 5, 2]
 
-# Plotting the data
-plt.plot(x, y)
-
-# Adding labels and a title
-plt.xlabel('X-axis Label')
-plt.ylabel('Y-axis Label')
-plt.title('Simple Line Graph')
-
-# Displaying the graph
-plt.show()
 
 
 
